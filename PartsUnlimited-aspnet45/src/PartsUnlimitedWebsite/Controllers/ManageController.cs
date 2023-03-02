@@ -282,7 +282,7 @@ namespace PartsUnlimited.Controllers
         public async Task<ActionResult> ManageLogins(ManageMessageId? message = null)
         {
             ViewBag.StatusMessage =
-                message == ManageMessageId.RemoveLoginSuccess ? "The external login was removed."
+                message == ManageMessageId.RemoveLoginSuccess ? "The external login was removed successfully."
                 : message == ManageMessageId.AddLoginSuccess ? "The external login was added."
                 : message == ManageMessageId.Error ? "An error has occurred."
                 : "";
