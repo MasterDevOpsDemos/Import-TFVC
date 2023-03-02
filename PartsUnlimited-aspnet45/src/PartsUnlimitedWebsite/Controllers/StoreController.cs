@@ -37,6 +37,7 @@ namespace PartsUnlimited.Controllers
             return View(genreModel);
         }
 
+        // Action Result Details
         public ActionResult Details(int id)
         {
 
