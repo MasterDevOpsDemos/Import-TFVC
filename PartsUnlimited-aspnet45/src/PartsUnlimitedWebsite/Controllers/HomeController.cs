@@ -119,6 +119,12 @@ public ActionResult Recomendations()
                     DatePosted = DateTime.Now,
                     Image = "community_4.png",
                     Source = CommunitySource.Facebook
+                },
+                new CommunityPost {
+                    Content= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo tellus lorem, et bibendum velit sagittis in. Integer nisl augue, cursus id tellus in, sodales porta.",
+                    DatePosted = DateTime.Now,
+                    Image = "community_4.png",
+                    Source = CommunitySource.Facebook
                 }
             };
         }
