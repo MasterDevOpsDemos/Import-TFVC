@@ -38,7 +38,7 @@ namespace PartsUnlimited.Controllers
                 : message == ManageMessageId.SetTwoFactorSuccess ? "Your two-factor authentication provider has been set."
                 : message == ManageMessageId.Error ? "An error has occurred."
                 : message == ManageMessageId.AddPhoneSuccess ? "Your phone number was added successfully."
-                : message == ManageMessageId.RemovePhoneSuccess ? "Your phone number was removed."
+                : message == ManageMessageId.RemovePhoneSuccess ? "Your phone number was removed successfully."
                 : "";
 
             var user = await GetCurrentUserAsync();
