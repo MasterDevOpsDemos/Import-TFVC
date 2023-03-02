@@ -283,7 +283,7 @@ namespace PartsUnlimited.Controllers
         {
             ViewBag.StatusMessage =
                 message == ManageMessageId.RemoveLoginSuccess ? "The external login was removed successfully."
-                : message == ManageMessageId.AddLoginSuccess ? "The external login was added."
+                : message == ManageMessageId.AddLoginSuccess ? "The external login was added successfully."
                 : message == ManageMessageId.Error ? "An error has occurred."
                 : "";
             var user = await GetCurrentUserAsync();
